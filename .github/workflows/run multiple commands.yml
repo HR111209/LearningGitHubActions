@@ -1,10 +1,10 @@
 name: Multiple Commands
-on: workflow_dispatch
+'on': workflow_dispatch
 jobs:
   multiple command:
     runs-on: ubuntu-latest
     steps:
       - name: one step multiple command
-      run: | 
-        echo "First command done"
-        echo "Second command done"
+        run: |
+          echo "First command done"
+          echo "Second command done"
