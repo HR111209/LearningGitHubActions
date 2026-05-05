@@ -1,7 +1,7 @@
 name: Multiple Commands
-'on': workflow_dispatch
+on: workflow_dispatch
 jobs:
-  multiple command:
+  multiple-commands: 
     runs-on: ubuntu-latest
     steps:
       - name: one step multiple command
